@@ -40,3 +40,9 @@ nodeContainer.addEventListener("click" ,function(e){
     }
 
 })
+document.addEventListener ("keydown", event =>{
+if(event. key === "enter") {
+document. execCommand("insertLineBreak")
+event.preventDefault ()
+｝
+})
